@@ -1,10 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using problemSolving;
 
 int []arr = {11,22,3,41,5,11, 22, 5, 7 , 8, 8, 8, 22};
 int[] arr2 = { 11, 22, 3, 4, 15 };
 
-var map = new Dictionary<int, int>();
 
 
 
@@ -29,21 +28,13 @@ var map = new Dictionary<int, int>();
 //    Console.Write(arr2[i]+" ");
 //}
 
-for (int i = 0; i < arr.Length; i++)
-{
-    if (! map.ContainsKey(arr[i]))
-    {
-        map.Add(arr[i], 1);
-    }
-    else
-    {
-        map[arr[i]] += 1; 
-    }
-}
+   Problems problem = new Problems();
 
 
-    foreach( var (item , values) in map)
-{
-    Console.WriteLine(item + " : "+ values);
-}
+
+     var map = problem.CountNumberRepeatedInArray(arr);
+
+      problem.PrintDectionary<int, int>(map);
+  
+  
 
