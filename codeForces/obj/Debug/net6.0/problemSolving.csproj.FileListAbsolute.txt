@@ -12,3 +12,4 @@ C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSol
 C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\ref\problemSolving.dll
 C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.pdb
 C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.genruntimeconfig.cache
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.csproj.AssemblyReference.cache
