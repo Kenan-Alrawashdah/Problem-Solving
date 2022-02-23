@@ -1,0 +1,14 @@
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\problemSolving.exe
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\problemSolving.deps.json
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\problemSolving.runtimeconfig.json
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\problemSolving.dll
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\ref\problemSolving.dll
+C:\Users\Mohammad\source\repos\codeForces\codeForces\bin\Debug\net6.0\problemSolving.pdb
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.AssemblyInfoInputs.cache
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.AssemblyInfo.cs
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.csproj.CoreCompileInputs.cache
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.dll
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\ref\problemSolving.dll
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.pdb
+C:\Users\Mohammad\source\repos\codeForces\codeForces\obj\Debug\net6.0\problemSolving.genruntimeconfig.cache
