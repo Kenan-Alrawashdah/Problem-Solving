@@ -17,8 +17,9 @@ var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 
 //Console.WriteLine(problem.Balanced("{(()[]{})}"));
 
-Console.WriteLine("Seconed Greater Number : " +problem.SeconedGreaterNumber(arr));
- 
+//Console.WriteLine("Seconed Greater Number : " +problem.SeconedGreaterNumber(arr));
+
+Console.WriteLine(problem.AddMinuteToClock("10:20",15));
 
 
 //int[] arr2 = { 11, 22, 3, 4, 15 };

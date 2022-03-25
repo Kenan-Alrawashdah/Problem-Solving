@@ -145,6 +145,19 @@ namespace problemSolving
             return temp;
         }
 
-       
+        public string AddMinuteToClock(string clock, int minute) {
+
+            string []arr = clock.Split(':');
+            int h = int.Parse(arr[0]);
+            int m = int.Parse(arr[1]);
+
+            int minutes = (h * 60) + m + minute;
+
+            h = minutes / 60;
+            m = minutes % 60;
+
+
+            return (h < 10 ? $"0{h}":h) +":"+(m < 10 ? $"0{m}":m);
+        }
     }
 }
