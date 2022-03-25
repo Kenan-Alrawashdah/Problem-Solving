@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -77,6 +78,38 @@ namespace problemSolving
                 }
             }
             return true;
+        }
+
+        public string Balanced(string str)
+        {
+            Stack<char> stack = new Stack<char>();
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                 if(stack.Count > 0 && this.IsBalance(stack.Peek(), str[i]))
+                {
+                    stack.Pop();
+                }
+                else
+                {
+                    stack.Push(str[i]);
+                }
+            }
+
+             
+            return stack.Count == 0 ? $"is balanced '{str}'" : $"not balanced '{str}'";
+        }
+
+        private bool IsBalance(char c1, char c2)
+        {
+            if (c1 == '(' && c2 == ')')
+                return true;
+            if (c1 == '[' && c2 == ']')
+                return true;
+            if (c1 == '{' && c2 == '}')
+                return true;
+
+            return false;
         }
     }
 }

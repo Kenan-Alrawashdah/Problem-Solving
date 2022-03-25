@@ -9,11 +9,13 @@ var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 
 
 
-      var res1 = problem.CountNumberRepeatedInArray(arr);
-          problem.PrintDectionary<int, int>(res1, "Number Repeated In Array");
+//var res1 = problem.CountNumberRepeatedInArray(arr);
+//    problem.PrintDectionary<int, int>(res1, "Number Repeated In Array");
 
-      var res2 = problem.GetPrimeNumbersInList(numbers);
-          problem.PrintList(res2, "Prime Numbers");
+//var res2 = problem.GetPrimeNumbersInList(numbers);
+//    problem.PrintList(res2, "Prime Numbers");
+
+   Console.WriteLine(problem.Balanced("{(()[]{})}"));
  
 
 
