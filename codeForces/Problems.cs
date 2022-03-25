@@ -111,5 +111,40 @@ namespace problemSolving
 
             return false;
         }
+
+        public int SeconedGreaterNumber(int[] arr)
+        {
+            int max;
+            int temp;
+
+             if(arr[0] > arr[1])
+            {
+                 max = arr[0];
+                 temp = arr[1];
+            }
+            else
+            {
+                max = arr[1];
+                temp = arr[0];
+            }
+
+
+            for (int i = 2; i < arr.Length; i++)
+            {
+                  if(arr[i] > max)
+                {
+                    temp = max;
+                    max = arr[i];
+                }else if(arr[i] > temp)
+                {
+                    temp = arr[i];
+                }
+            }
+
+
+            return temp;
+        }
+
+       
     }
 }

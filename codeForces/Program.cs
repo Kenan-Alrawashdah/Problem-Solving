@@ -1,6 +1,6 @@
 ﻿using problemSolving;
 
-int []arr = {11,22,3,41,5,11, 22, 5, 7 , 8, 8, 8, 22};
+int []arr = {11,22,3,41,5,11, 22, 5, 7 ,32, 8, 8, 8, 22,50};
 var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 
 
@@ -15,7 +15,9 @@ var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 //var res2 = problem.GetPrimeNumbersInList(numbers);
 //    problem.PrintList(res2, "Prime Numbers");
 
-   Console.WriteLine(problem.Balanced("{(()[]{})}"));
+//Console.WriteLine(problem.Balanced("{(()[]{})}"));
+
+Console.WriteLine("Seconed Greater Number : " +problem.SeconedGreaterNumber(arr));
  
 
 
