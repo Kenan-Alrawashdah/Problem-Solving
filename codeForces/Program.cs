@@ -1,6 +1,6 @@
 ﻿using problemSolving;
 
-int []arr = {11,22,3,41,5,11, 22, 5, 7 ,32, 8, 8, 8, 22,50};
+int []arr = {1,11,22,3,41,5,1,11, 22, 5, 7 ,32, 8, 8, 8, 22,50};
 var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 
 
@@ -19,7 +19,9 @@ var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12,13,21,22,31 };
 
 //Console.WriteLine("Seconed Greater Number : " +problem.SeconedGreaterNumber(arr));
 
-Console.WriteLine(problem.AddMinuteToClock("10:20",15));
+//Console.WriteLine(problem.AddMinuteToClock("21:40",25));
+
+Console.WriteLine("First Num Repeted :" + problem.FirstIntRepeted(arr));
 
 
 //int[] arr2 = { 11, 22, 3, 4, 15 };

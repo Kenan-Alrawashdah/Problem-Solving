@@ -157,7 +157,24 @@ namespace problemSolving
             m = minutes % 60;
 
 
-            return (h < 10 ? $"0{h}":h) +":"+(m < 10 ? $"0{m}":m);
+            return (h==24 ? "00": h < 10 ? $"0{h}":h) +":"+(m < 10 ? $"0{m}":m);
         }
+
+        public int FirstIntRepeted(int [] arr)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (dic.ContainsKey(arr[i]))
+                {
+                    return arr[i];
+                }
+                else
+                {
+                    dic.Add(arr[i], 1);
+                }
+            }
+            return 0;
+        } 
     }
 }
